@@ -1,0 +1,52 @@
+/*
+*{
+	/* This is called a reset, applies to everything */
+	margin: 0;
+	padding: 0;
+} 
+*/
+
+body{
+	background-color: #f4f4f4;
+	color:black;
+
+	font-family: Verdana Tahoma, sans-serif;
+	/* Can combine font into multiple settings */
+	font: normal 16px Tahoma, Verdana, sans-serif;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.container{
+	width: 80%;
+	margin:auto;
+}
+
+.box-1{
+	background-color: #333;
+	color: #fff;
+	border-top: 5px red solid;
+	border-right: 5px red solid;
+	border-bottom: 5px red solid;
+	border-left: 5px red solid;
+
+	/* shorthand for above */
+	border: 5px red solid;
+	border-bottom-width: 15px;
+
+	padding-top: 20px;
+	padding: 20px;
+	
+	margin-top: 25px;
+	margin: 20px 0;
+}
+
+.box-1 h1{
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 200;
+	font-style:normal;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+
+}
