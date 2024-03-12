@@ -17,6 +17,19 @@ body{
 	margin: 0;
 }
 
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: red;
+}
+
+a:active{
+	color:green
+}
+
 .container{
 	width: 80%;
 	margin:auto;
@@ -49,4 +62,33 @@ body{
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 
+}
+
+.box-2 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	border: 3px gray solid;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 10px;
+}
+
+.categories{
+	border: 1px gray solid;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.categories h3{
+	text-align: center;
+}
+
+.categories ul {
+	color:aqua;
+	list-style: none;
+}
+
+.categories li {
+	padding: 6px;
+	border-bottom: 3px black dotted;
+	list-style-image: url('../images/check.png');
 }
